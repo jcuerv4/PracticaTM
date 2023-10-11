@@ -3,7 +3,7 @@ name: Hola Omarti9
 on:                      #cuando se realice un push en la raman main se ejecuta lo que esten en los jobs
   push:
     branches:
-      - main
+      - main             # identifica la rama
 
 jobs:
   Primer:trabajo_omarti9:   # nombre del job
