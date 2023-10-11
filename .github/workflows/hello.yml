@@ -1,17 +1,17 @@
-name: Say hello
+name: Hola Omarti9
 
-on:
+on:                      #cuando se realice un push en la raman main se ejecuta lo que esten en los jobs
   push:
     branches:
       - main
 
 jobs:
-  hello_world:
-    runs-on: ubuntu-18.04
+  Primer:trabajo_omarti9:   # nombre del job
+    runs-on: ubuntu-18.04 # funciona en la version
     steps:
-      - name: Echo the message
+      - name: Echo the message 
         run: |
-          echo "Hola midu!"
+          echo "Hola omarti9!"    
       - name: Dime la fecha
         run: date
       - run: ls -l
